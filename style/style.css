@@ -1503,9 +1503,6 @@ html:has(#menu-toggle:checked) {
     gap: 15px;
   }
 
-}
-
-@media (max-width: 767px) {
   .header__nav {
     display: none;
   }
@@ -1514,6 +1511,10 @@ html:has(#menu-toggle:checked) {
     display: none;
   }
 
+
+}
+
+@media (max-width: 767px) {
   .hero {
     padding: 100px 0 33px 0;
     gap: 160px;
@@ -1810,7 +1811,7 @@ html:has(#menu-toggle:checked) {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .burger {
     display: flex;
   }

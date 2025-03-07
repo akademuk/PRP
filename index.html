@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="play with GGBET!">
+
+    <title>PRposting</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img width="144" height="38" src="image/header-logo.svg" alt="PRposting logo">
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">Why Us</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Reviews</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">FAQ</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Publishers</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <!-- <select class="header__language">
+                        <option value="">English</option>
+                        <option value="">English</option>
+                        <option value="">English</option>
+                    </select> -->
+                <div class="header__auth">
+                    <a href="#" class="header__auth-link header__auth-login">Log in</a>
+                    <a href="#" class="header__auth-link header__auth-sign">Sign up</a>
+                </div>
+            </div>
+            <!-- Чекбокс для управления меню -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="header__menu">
+                <div class="header__menu-nav">
+                    <div class="header__auth">
+                        <a href="#" class="header__auth-link header__auth-login">Log in</a>
+                        <a href="#" class="header__auth-link header__auth-sign">Sign up</a>
+                    </div>
+                    <nav>
+                        <ul class="header__list">
+                            <li class="header__item dropdown">
+                                <span class="header__link header__item-v1">Services</span>
+                                <ul class="dropdown__menu">
+                                    <li><a href="#">Publishers</a></li>
+                                    <li><a href="#">Publishers</a></li>
+                                    <li><a href="#">Publishers</a></li>
+                                    <li><a href="#">Publishers</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__item"><a href="#" class="header__link">Publishers</a></li>
+                            <li class="header__item"><a href="#" class="header__link">Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">PRposting.com</h1>
+                <h2 class="hero__subtitle">Easy-to-use online content distribution platform</h2>
+                <a href="#" class="hero__button">Get Started</a>
+            </div>
+
+            <div class="hero__marquee">
+                <p class="hero__marquee-title">Trusted Us</p>
+                <div class="hero__marquee-inner">
+                    <div class="hero__marquee-track">
+                        <div class="hero__marquee-item"><img width="99" height="26" src="image/trusted-logo1.svg"
+                                alt="Preply"></div>
+                        <div class="hero__marquee-item"><img width="209" height="30" src="image/trusted-logo2.svg"
+                                alt="VistaCreate"></div>
+                        <div class="hero__marquee-item"><img width="217" height="39" src="image/trusted-logo3.svg"
+                                alt="Delfast"></div>
+                        <div class="hero__marquee-item"><img width="100" height="35" src="image/trusted-logo4.svg"
+                                alt="420"></div>
+                        <div class="hero__marquee-item"><img width="119" height="47" src="image/trusted-logo5.svg"
+                                alt="Genome"></div>
+                        <div class="hero__marquee-item"><img width="161" height="35" src="image/trusted-logo6.svg"
+                                alt="SignNow"></div>
+                        <div class="hero__marquee-item"><img width="170" height="32" src="image/trusted-logo7.svg"
+                                alt="Capital.com"></div>
+                        <div class="hero__marquee-item"><img width="78" height="61" src="image/trusted-logo8.svg"
+                                alt="Uniqa"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo1.svg" alt="Preply"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo2.svg" alt="VistaCreate"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo3.svg" alt="Delfast"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo4.svg" alt="420"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo5.svg" alt="Genome"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo6.svg" alt="SignNow"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo7.svg" alt="Capital.com"></div>
+                        <div class="hero__marquee-item"><img src="image/trusted-logo8.svg" alt="Uniqa"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__wrapper">
+                <h2 class="features__title">Why PRposting.com suits you best?</h2>
+
+                <div class="features__grid">
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon1.svg" alt="Manual Distribution logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">Manual Distribution</h3>
+                            <p class="features__text">Your dedicated manager publishes every content manually - no
+                                cookie-cutter solutions or
+                                automated pipelines.</p>
+                        </div>
+                    </article>
+
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon2.svg" alt=">Copywriting Services logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">Copywriting Services</h3>
+                            <p class="features__text">Don’t have high-quality content ready? Our team of writing
+                                experts can craft compelling
+                                materials that enhance your message.</p>
+                        </div>
+                    </article>
+
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon3.svg" alt="100% Safety logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">100% Safety</h3>
+                            <p class="features__text">We guarantee that your publications will appear on the chosen
+                                websites, or you'll receive
+                                your money back.</p>
+                        </div>
+                    </article>
+
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon4.svg" alt="Extended Reach logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">Extended Reach</h3>
+                            <p class="features__text">Gain access to over 19,000 websites - and growing - maximizing
+                                your content's visibility
+                                and audience engagement.</p>
+                        </div>
+                    </article>
+
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon5.svg" alt="Lifetime Exposure logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">Lifetime Exposure</h3>
+                            <p class="features__text">One upfront payment secures permanent placement for your
+                                content on the chosen platforms,
+                                ensuring long-term online presence.</p>
+                        </div>
+                    </article>
+
+                    <article class="features__card">
+                        <div class="features__icon">
+                            <img width="40" height="40" src="image/features-icon6.svg" alt="Tangible Results logo">
+                        </div>
+                        <div class="features__content">
+                            <h3 class="features__subtitle">Tangible Results</h3>
+                            <p class="features__text">Your website's search engine ranking and user popularity will
+                                sustainably climb with more
+                                strategically placed guest posts.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="features__action">
+                    <a href="#" class="features__button">Sign Up</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="process__wrapper">
+                <h2 class="process__title">How does it work?</h2>
+
+                <div class="process__grid">
+                    <div class="process__column">
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 1</h3>
+                            <h4 class="process__step-title">Prepare Your Content</h4>
+                            <p class="process__step-text">
+                                Submit completed articles for publication or order custom writing services to obtain
+                                unique, high-quality content tailored to your needs.
+                            </p>
+                        </article>
+
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 2</h3>
+                            <h4 class="process__step-title">Select Publishing Platforms</h4>
+                            <p class="process__step-text">
+                                Please choose from our extensive list of websites. Consider each platform's subject
+                                matter
+                                and specific requirements to enhance your chances of publication success.
+                            </p>
+                        </article>
+
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 3</h3>
+                            <h4 class="process__step-title">Add to Your Basket</h4>
+                            <p class="process__step-text">
+                                Add your selected articles and websites to your basket. Before finalizing payment,
+                                you can modify your order by adding new items or removing unnecessary ones.
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="process__column">
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 4</h3>
+                            <h4 class="process__step-title">Top Up Your Balance</h4>
+                            <p class="process__step-text">
+                                Ensure sufficient funds are in your account balance. You can deposit the amount
+                                specified
+                                in your basket using one of our multiple payment options.
+                            </p>
+                        </article>
+
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 5</h3>
+                            <h4 class="process__step-title">Confirm Your Order</h4>
+                            <p class="process__step-text">
+                                Please carefully review and confirm your selections. The total cost will be
+                                calculated,
+                                and upon your confirmation, the specified amount will be reserved in your account.
+                            </p>
+                        </article>
+
+                        <article class="process__step">
+                            <h3 class="process__step-number">Step 6</h3>
+                            <h4 class="process__step-title">Receive a Report</h4>
+                            <p class="process__step-text">
+                                As soon as your order is processed, you'll receive a report detailing the status of
+                                each
+                                publication request. If an article is successfully published, the payment is
+                                completed.
+                                If a resource declines the article, the corresponding funds will be reverted to your
+                                account.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="guest-posting">
+            <div class="guest-posting__wrapper">
+                <div class="guest-posting__content">
+                    <h2 class="guest-posting__title">Targeted Guest Posting Made Easy</h2>
+                    <p class="guest-posting__text">
+                        PRposting is a comprehensive content distribution platform specializing in guest posting and
+                        outreach services.
+                        It is designed to enhance online visibility and improve SEO performance for businesses and
+                        content creators.
+                        Founded by a team of SEO specialists, PRposting has gained recognition for its user-friendly
+                        interface and
+                        extensive network of authoritative websites.
+                    </p>
+                </div>
+
+                <div class="guest-posting__stats">
+                    <article class="guest-posting__card">
+                        <div class="guest-posting__card-header">
+                            <h3 class="guest-posting__card-value">50+</h3>
+                            <span class="guest-posting__card-label">categories</span>
+                        </div>
+                        <div class="guest-posting__card-body">
+                            <h4 class="guest-posting__card-title">Diverse niches</h4>
+                            <p class="guest-posting__card-text">
+                                Choose from a wide array of categories, including technology, iGaming, finance,
+                                cryptocurrency, lifestyle, and more.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="guest-posting__card">
+                        <div class="guest-posting__card-header">
+                            <h3 class="guest-posting__card-value">177</h3>
+                            <span class="guest-posting__card-label">countries</span>
+                        </div>
+                        <div class="guest-posting__card-body">
+                            <h4 class="guest-posting__card-title">Global outreach</h4>
+                            <p class="guest-posting__card-text">
+                                Global outreach connects with audiences around the world through an extensive
+                                network of publishers.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="guest-posting__card">
+                        <div class="guest-posting__card-header">
+                            <h3 class="guest-posting__card-value">20+</h3>
+                            <span class="guest-posting__card-label">selection criteria</span>
+                        </div>
+                        <div class="guest-posting__card-body">
+                            <h4 class="guest-posting__card-title">Targeted reach</h4>
+                            <p class="guest-posting__card-text">
+                                Identify the most relevant websites using extensive filters, such as domain rating,
+                                traffic volume,
+                                geography, categories, and more.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cooperation">
+            <div class="cooperation__wrapper">
+                <h2 class="cooperation__title">Choose your preferred cooperation method</h2>
+                <p class="cooperation__description">We stick to your comfortable work routine</p>
+
+                <div class="cooperation__tabs">
+                    <input type="radio" id="tab1" name="cooperation-tabs" checked>
+                    <label for="tab1" class="cooperation__tab-label">We handle the entire workload</label>
+
+                    <input type="radio" id="tab2" name="cooperation-tabs">
+                    <label for="tab2" class="cooperation__tab-label">We are here to assist you</label>
+
+                    <input type="radio" id="tab3" name="cooperation-tabs">
+                    <label for="tab3" class="cooperation__tab-label">You are in charge</label>
+
+                    <div class="cooperation__content">
+                        <div class="cooperation__tab-content">
+                            <div class="cooperation__image">
+                                <picture>
+                                    <source srcset="image/cooperation-img1.webp" type="image/webp">
+                                    <img loading="lazy" width="568" height="465" src="image/cooperation-img1.png"
+                                        alt="image">
+                                </picture>
+                            </div>
+                            <div class="cooperation__box">
+                                <p class="cooperation__text">
+                                    Share your content preferences, platform requirements, task objectives,
+                                    overall budget, and any publishing limits, and we will manage everything else.
+                                </p>
+                                <a href="#" class="cooperation__button">Sign Up</a>
+                            </div>
+                        </div>
+
+                        <div class="cooperation__tab-content">
+                            <div class="cooperation__image">
+                                <picture>
+                                    <source srcset="image/cooperation-img2.webp" type="image/webp">
+                                    <img loading="lazy" width="568" height="465" src="image/cooperation-img2.png"
+                                        alt="image">
+                                </picture>
+                            </div>
+                            <div class="cooperation__box">
+                                <p class="cooperation__text">
+                                    Do you prefer to work independently but lack time to explore the system?
+                                    We provide guidance and support, allowing you to manage the process while
+                                    being available for any questions.
+                                </p>
+                                <a href="#" class="cooperation__button">Get Started</a>
+                            </div>
+                        </div>
+
+                        <div class="cooperation__tab-content">
+                            <div class="cooperation__image">
+                                <picture>
+                                    <source srcset="image/cooperation-img3.webp" type="image/webp">
+                                    <img loading="lazy" width="568" height="465" src="image/cooperation-img3.png"
+                                        alt="image">
+                                </picture>
+                            </div>
+                            <div class="cooperation__box">
+                                <p class="cooperation__text">
+                                    As an independent learner eager to explore the platform, register,
+                                    investigate the features, and achieve your business goals through
+                                    experimentation.
+                                    Just sign up and enjoy!
+                                </p>
+                                <a href="#" class="cooperation__button">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="strategy">
+            <div class="strategy__wrapper">
+                <div class="strategy__header">
+                    <h2 class="strategy__title">
+                        Let's talk and discuss your strategy. Reach me out!
+                    </h2>
+                    <p class="strategy__description">
+                        Over 5 years of experience in online marketing. Flexible in discovering fresh solutions
+                        and skilled in communicating with customers.
+                    </p>
+                </div>
+
+                <div class="strategy__content">
+                    <div class="strategy__image">
+                        <picture>
+                            <source srcset="image/strategy__image.webp" type="image/webp">
+                            <img loading="lazy" width="568" height="465" src="image/strategy__image.png" alt="image">
+                        </picture>
+                    </div>
+                    <div class="strategy__details">
+                        <p class="strategy__name">Yuriy</p>
+                        <p class="strategy__position">Head of Business Development</p>
+                        <p class="strategy__bio">
+                            Do you own a business, website, blog or have an innovative idea to promote on the web?
+                            I am going to show you a highly-effective and simple way of website promotion using
+                            PRposting.com
+                        </p>
+                        <div class="strategy__contact">
+                            <a href="/" class="strategy__email">email protected</a>
+                            <ul class="strategy__social">
+                                <li><a href="#" class="strategy__social-link">
+                                        <img width="45" height="45" src="image/soc1.svg" alt="icon">
+                                    </a></li>
+                                <li><a href="#" class="strategy__social-link">
+                                        <img width="45" height="45" src="image/soc2.svg" alt="icon">
+                                    </a></li>
+                                <li><a href="#" class="strategy__social-link">
+                                        <img width="45" height="45" src="image/soc3.svg" alt="icon">
+                                    </a></li>
+                                <li><a href="#" class="strategy__social-link">
+                                        <img width="45" height="45" src="image/soc4.svg" alt="icon">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="figures">
+            <div class="wrapper">
+                <h2 class="figures-title">PRposting.com in figures</h2>
+                <div class="figures-box">
+                    <div class="figures-col">
+                        <p class="figures-value">19,000+</p>
+                        <p class="figures-text">Sites</p>
+                    </div>
+                    <div class="figures-col">
+                        <p class="figures-value">177</p>
+                        <p class="figures-text">countries</p>
+                    </div>
+                    <div class="figures-col">
+                        <p class="figures-value">28110</p>
+                        <p class="figures-text">projects</p>
+                    </div>
+                    <div class="figures-col">
+                        <p class="figures-value">178218</p>
+                        <p class="figures-text">unique articles</p>
+                    </div>
+                </div>
+                <a href="" class="figures-link">Free registration</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <div class="footer__brand-box">
+                        <a href="/" class="footer__logo">
+                            <img width="151" height="40" src="image/footer-logo.svg" alt="logotype">
+                        </a>
+                        <p class="footer__description">Guest Posting & Content distribution services</p>
+                    </div>
+                    <img width="68" height="77" src="image/sticker.svg" alt="sticker" class="footer__brand-image">
+                </div>
+
+                <div class="footer__navigation">
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li class="footer__item footer__item--title">Info</li>
+                            <li class="footer__item"><a href="#" class="footer__link">User agreement</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Cookie policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy & GDPR</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Refund Policy</a></li>
+                        </ul>
+
+                        <ul class="footer__list">
+                            <li class="footer__item footer__item--title">Support</li>
+                            <li class="footer__item"><a href="#" class="footer__link">Affiliate Program</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Offer a website</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Feedback</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="footer__services">
+                        <span class="footer__services-title">Main Services</span>
+                        <nav class="footer__menu">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Guest posting services</a>
+                                </li>
+                                <li class="footer__item"><a href="#" class="footer__link">Sponsored posting
+                                        services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Blogger Outreach
+                                        Services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Niche Edits Service</a>
+                                </li>
+                                <li class="footer__item"><a href="#" class="footer__link">Link Insertions
+                                        Services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Article Writing
+                                        Services</a></li>
+                            </ul>
+
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Content Writing
+                                        Services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">High PR link Building
+                                        Services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Backlink Packages</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Search Engine
+                                        Reputation</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Press Release Distribution
+                                        Services</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__info">
+                    <p class="footer__rights">All rights Reserved</p>
+                    <p class="footer__tagline">Personal link building services</p>
+                </div>
+                <ul class="footer__payments">
+                    <li><img width="99" height="27" src="image/bank1.svg" alt="icon bank"></li>
+                    <li><img width="66" height="16" src="image/bank2.svg" alt="icon bank"></li>
+                    <li><img width="37" height="28" src="image/bank3.svg" alt="icon bank"></li>
+                    <li><img width="52" height="16" src="image/bank4.svg" alt="icon bank"></li>
+                    <li><img width="60" height="18" src="image/bank5.svg" alt="icon bank"></li>
+                    <li><img width="19" height="30" src="image/bank6.svg" alt="icon bank"></li>
+                    <li><img width="63" height="12" src="image/bank7.svg" alt="icon bank"></li>
+                    <li><img width="62" height="20" src="image/bank8.svg" alt="icon bank"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
